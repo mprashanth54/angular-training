@@ -1,19 +1,21 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AuthService } from './services/auth.service'
+import {FormsModule} from '@angular/forms'
 
-import { AppComponent } from './app.component';
+import { loginComponenet } from './app.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    loginComponenet
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [AuthService],
-  bootstrap: [AppComponent]
+  bootstrap: [loginComponenet]
 })
 export class AppModule {
   constructor() {

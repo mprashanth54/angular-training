@@ -1,0 +1,10 @@
+input{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.login{
+    text-align: center;
+    vertical-align: middle;
+}
